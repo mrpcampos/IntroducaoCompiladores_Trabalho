@@ -688,7 +688,7 @@ void expression(RecoverySet g) throws ParseEOFException :
 }
 {
 try {
-    numexpr() [( <LT> | <GT> | <LE> | <GE> | <EQ> | <NEQ>) numexpr()]
+    (<NOT>)? numexpr() [( <LT> | <GT> | <LE> | <GE> | <EQ> | <NEQ> | <AND> | <OR> | <XOR>) (<NOT>)? numexpr()]
 }
 catch (ParseException e)
 {
