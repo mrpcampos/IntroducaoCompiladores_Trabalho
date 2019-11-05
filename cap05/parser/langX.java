@@ -61,9 +61,8 @@ public class langX implements langXConstants {
         int k;
         String s;
         s = tokenImage[x];
-        k = s.lastIndexOf("\u005c"");
         try {
-            s = s.substring(1,k);
+            s = s.substring(1,s.length()-1);
         } catch (StringIndexOutOfBoundsException e) {
             e.printStackTrace();
         }

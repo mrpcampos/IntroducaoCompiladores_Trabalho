@@ -304,8 +304,8 @@ TOKEN :
 | < REM: "%" >
 | < AND: "&&" >
 | < OR: "||" >
-| < XOR: "^" >
-| < NOT: "!" >
+| < XOR: "^^" >
+| < NOT: "!!" >
 }
 
 /* Trata os erros l�xicos */
@@ -392,7 +392,7 @@ void classdecl(RecoverySet g) throws ParseEOFException :
 }
 {
 try {
-   <CLASS>  <IDENT> [ <EXTENDS> <IDENT> ] classbody(g)
+   (<PUBLIC> | <PRIVATE> | <PROTECTED>)? <CLASS>  <IDENT> [ <EXTENDS> <IDENT> ] classbody(g)
 }
 catch (ParseException e)
 {
@@ -446,6 +446,7 @@ void constructdecl(RecoverySet g) throws ParseEOFException :
 }
 {
 try {
+    (<PUBLIC> | <PRIVATE> | <PROTECTED>)?
     <CONSTRUCTOR> methodbody(g)
 }
 catch (ParseException e)
@@ -459,6 +460,7 @@ void methoddecl(RecoverySet g) throws ParseEOFException :
 }
 {
 try {
+   (<PUBLIC> | <PRIVATE> | <PROTECTED>)?
    (<INT> | <BYTE> | <SHORT> | <LONG> | <FLOAT> |  <STRING> | <IDENT> ) (<LBRACKET> <RBRACKET>)*
    <IDENT> methodbody(g)
 }
@@ -688,7 +690,7 @@ void expression(RecoverySet g) throws ParseEOFException :
 }
 {
 try {
-    (<NOT>)? numexpr() [( <LT> | <GT> | <LE> | <GE> | <EQ> | <NEQ> | <AND> | <OR> | <XOR>) (<NOT>)? numexpr()]
+  (<NOT> numcompexpr() | numcompexpr() ) ( ( <AND> | <OR> | <XOR> ) ( <NOT> numcompexpr() | numcompexpr()) )*
 }
 catch (ParseException e)
 {
@@ -696,6 +698,12 @@ catch (ParseException e)
 }
 }
 
+void numcompexpr() throws ParseEOFException:
+{
+}
+{
+  numexpr() [( <LT> | <GT> | <LE> | <GE> | <EQ> | <NEQ>) numexpr()]
+}
 
 void numexpr() throws ParseEOFException :
 {
