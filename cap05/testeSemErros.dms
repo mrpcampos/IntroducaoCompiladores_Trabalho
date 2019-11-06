@@ -1,0 +1,59 @@
+
+public class testeCompila {
+	
+	protected testeByte() {
+		
+		byte variavelByte1 = 3;
+		
+			if(variavelByte1 > 2) {
+				print(variavelByte1);
+			}
+				else {}
+	}
+	
+	private testeShort() {
+		
+		short variavelShort1 = 6;
+		
+			if(variavelShort1 == 6) {
+				print(variavelShort1);
+			}
+				else {}
+	}
+	
+	final testeLong() {
+		
+		long variavelLong1 = 11837891L;
+		
+		if (variavelLong1 != 18837891L ) { 
+			print(variavelLong1);
+		}
+		else {}
+	}
+	
+	public testeFloat() {
+		
+		float variavelFloat1 = 11.83;
+		
+			if(variavelFloat1 < 18.88 ) {
+				print(variavelFloat1);
+			}
+				else {}
+	}
+	
+	public testeOperadoresLogicos() {
+		
+	      boolean a = true;
+	      boolean b = false;
+
+	      print(a&&b); // teste AND
+	      print(a||b); // teste OR
+	      print(!(a&&b)); // teste NOT
+	      print(a^b); // teste XOR
+	   }
+	
+}
+
+
+
+

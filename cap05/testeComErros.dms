@@ -1,0 +1,52 @@
+
+public class testeCompila {
+	
+	protect testeByte() {
+		
+		byte variavelByte1 = 3@//2;
+		
+			fi(variavelByte1 > 9) {
+				print(variavelByte1);
+
+	}
+	
+	privati testeShort() {
+		
+		short variavelShort1 = 0,,00085;
+		
+			if(variavelShort1 != 6;8) {
+				print(variavelShort1);
+	}
+	
+	final testeLong() {
+		
+		long variavelLong1 = 11837long;
+		
+		if (variavelLong1 != 18837891L ) { 
+			print(variavelLong1);
+
+	}
+	
+	public testeFloat() {
+		
+		float variavelFloat1 = 11,83;
+		
+			if(variavelFloat1 < 18;88 ) {
+				print(variavelFloat1);
+	}
+	
+	public testeOperadoresLogicos() {
+		
+	      boolean a = true;
+	      boolean b = false;
+
+	      print(a&&&b);
+	      print(a|||b);
+	      print(!!(a&&b));
+	      print(a^^b);
+	   }
+	
+}
+
+variavilFora = "var";
+
