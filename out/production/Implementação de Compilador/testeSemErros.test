@@ -49,7 +49,7 @@ public class testeCompila {
 			}
 	}
 	
-	public final int testeOperadoresLogicos() {
+	public static testeOperadoresLogicos() {
 		
 	      boolean a;
 	      a = true;
