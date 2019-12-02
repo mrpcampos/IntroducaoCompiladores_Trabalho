@@ -1,0 +1,69 @@
+
+public class testeCompila {
+
+	private final int variavelByte1;
+	variavelByte1 = 22;
+	float f;
+	f = 12.21;
+
+
+	protected int testeByte() {
+
+		if(variavelByte1 > 2) {
+			print(variavelByte1);
+		}
+	}
+
+	private Batata testeShort() {
+
+		short variavelShort1 = 6;
+
+		if(variavelShort1 == (0||1&&(1^0!||1))) {
+			print(variavelShort1);
+		}
+		else {
+			print(variavelShort1>(6%1F));
+		}
+	}
+
+	final Repolho testeLong() {
+
+		long variavelLong1;
+
+		if (variavelLong1 != 18837891L)
+		{
+			print(variavelLong1);
+		}
+	}
+
+	public string testeFloat() {
+
+		float variavelFloat1;
+		variavelFloat1 = 11.83;
+
+		if(variavelFloat1 < 18.88 ) {
+			print(variavelFloat1);
+		}
+	}
+
+	public static testeOperadoresLogicos() {
+
+		boolean a = true;
+		boolean b = false;
+
+		a^b;
+
+		print(a||&&b); // teste AND
+		print(a&&||b); // teste OR
+		print(!(a&&b)); // teste NOT
+		print(a^b); // teste XOR
+
+		if (a^b){
+			print("qualquer coisa");
+		}
+
+		boolean terminou;
+		terminou = True;
+	}
+
+}
