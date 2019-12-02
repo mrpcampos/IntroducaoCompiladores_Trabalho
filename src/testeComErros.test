@@ -67,3 +67,5 @@ public class testeCompila {
 	}
 
 }
+
+int a =5@;

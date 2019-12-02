@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="59e26317-e6e3-422c-aa7a-32c2ab57c844" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/parser/ParseException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/SimpleCharStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/Token.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/TokenMgrError.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/langX++ --OLD.jj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/langX++.jj" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/langX++.jj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/langX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/langX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/langXConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/langXTokenManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recovery/RecoverySet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recovery/RecoverySet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntacticTree/AddNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntacticTree/AtribNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntacticTree/BlockNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntacticTree/BreakNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntacticTree/ByteConstNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntacticTree/CallNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntacticTree/ClassBodyNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntacticTree/ClassDeclNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntacticTree/ConstructDeclNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntacticTree/DotNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntacticTree/ExpreNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntacticTree/FloatConstNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntacticTree/ForNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntacticTree/GeneralNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntacticTree/IfNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntacticTree/IndexNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntacticTree/IntConstNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntacticTree/ListNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntacticTree/LongConstNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntacticTree/MethodBodyNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntacticTree/MethodDeclNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntacticTree/MultNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntacticTree/NewArrayNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntacticTree/NewObjectNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntacticTree/NopNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntacticTree/NotNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntacticTree/NullConstNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntacticTree/PrintNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntacticTree/PrintTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntacticTree/ReadNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntacticTree/RelationalNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntacticTree/ReturnNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntacticTree/ShortConstNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntacticTree/StatementNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntacticTree/StringConstNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntacticTree/SuperNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntacticTree/UnaryNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntacticTree/VarDeclNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syntacticTree/VarNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testeComErros.test" beforeDir="false" afterPath="$PROJECT_DIR$/src/testeComErros.test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testeSemErros.test" beforeDir="false" afterPath="$PROJECT_DIR$/src/testeSemErros.test" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/parser/langX++.jj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1037">
+              <caret line="544" column="15" selection-start-line="544" selection-start-column="10" selection-end-line="544" selection-end-column="15" />
+              <folding>
+                <element signature="e#11323#11362#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="207" column="57" selection-start-line="207" selection-start-column="53" selection-end-line="207" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>LOOKAHEAD</find>
+      <find>vd</find>
+      <find>atr</find>
+      <find>posi</find>
+      <find>varde</find>
+      <find>im</find>
+      <find>vardec</find>
+      <find>boolean</find>
+      <find>atrib</find>
+      <find>IntConstNode</find>
+      <find>protected</find>
+      <find>vardeclNode</find>
+      <find>t1 = &lt;INT&gt; |  t1 = &lt;STRING&gt;</find>
+      <find>MethodDeclNode</find>
+      <find>&quot;&quot;</find>
+      <find>methoddec</find>
+      <find>vardeclnode</find>
+      <find>vardeclN</find>
+      <find>static</find>
+      <find>FALSE</find>
+      <find>ExpreNode</find>
+      <find>RelationalNode</find>
+      <find>unary</find>
+      <find>vardecl</find>
+      <find>&quot;null&quot;</find>
+      <find>NopNode</find>
+      <find>changea</find>
+      <find>a =</find>
+      <find>final</find>
+      <find>run</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/mrpcampos/introducaoCompila/cap05/recovery/RecoverySet.java" />
+        <option value="$PROJECT_DIR$/src/recovery/First.java" />
+        <option value="$PROJECT_DIR$/src/syntacticTree/ClassDeclNode.java" />
+        <option value="$PROJECT_DIR$/src/syntacticTree/ClassBodyNode.java" />
+        <option value="$PROJECT_DIR$/src/parser/langX.java" />
+        <option value="$PROJECT_DIR$/src/syntacticTree/FloatConstNode.java" />
+        <option value="$PROJECT_DIR$/src/syntacticTree/ByteConstNode.java" />
+        <option value="$PROJECT_DIR$/src/syntacticTree/ShortConstNode.java" />
+        <option value="$PROJECT_DIR$/src/syntacticTree/LongConstNode.java" />
+        <option value="$PROJECT_DIR$/src/syntacticTree/MethodDeclNode.java" />
+        <option value="$PROJECT_DIR$/src/syntacticTree/VarDeclNode.java" />
+        <option value="$PROJECT_DIR$/out/production/Implementação de Compilador/testeSemErros.test" />
+        <option value="$PROJECT_DIR$/src/testeSemErros.test" />
+        <option value="$PROJECT_DIR$/src/syntacticTree/NotNode.java" />
+        <option value="$PROJECT_DIR$/src/parser/langX++.jj" />
+        <option value="$PROJECT_DIR$/src/syntacticTree/PrintTree.java" />
+        <option value="$PROJECT_DIR$/src/testeComErros.test" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="1155" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Implementação de Compilador" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Implementação de Compilador" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Implementação de Compilador" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Implementação de Compilador" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Implementação de Compilador" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Implementação de Compilador" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="inspectionProfiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575284753630" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projetos\Implementação de Compilador\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projetos\Implementação de Compilador\src\parser" />
+      <recent name="C:\Projetos\Implementação de Compilador\src\recovery" />
+      <recent name="C:\Projetos\Implementação de Compilador\src" />
+      <recent name="C:\Projetos\Implementação de Compilador\src\mrpcampos\introducaoCompila\cap05" />
+      <recent name="C:\Projetos\Implementação de Compilador\out\production" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.teste sem erros">
+    <configuration name="teste com erros" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="parser.langX" />
+      <module name="Implementação de Compilador" />
+      <option name="PROGRAM_PARAMETERS" value="-print_tree &quot;C:\Projetos\Implementação de Compilador\out\production\Implementação de Compilador\testeComErros.test&quot;" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="teste sem erros" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="parser.langX" />
+      <module name="Implementação de Compilador" />
+      <option name="PROGRAM_PARAMETERS" value="-print_tree &quot;C:\Projetos\Implementação de Compilador\out\production\Implementação de Compilador\testeSemErros.test&quot;" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.teste com erros" />
+      <item itemvalue="Application.teste sem erros" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.teste sem erros" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59e26317-e6e3-422c-aa7a-32c2ab57c844" name="Default Changelist" comment="" />
+      <created>1575253571941</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575253571941</updated>
+      <workItem from="1575253578295" duration="28098000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="28098000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="1155" height="1047" extended-state="0" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24200913" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" weight="0.32996634" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32996634" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32996634" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3782267" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.26575342" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.32996634" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32996634" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.32996634" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.test" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/mrpcampos/introducaoCompila/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/recovery/RecoverySet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parser/TokenMgrError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="61" column="31" lean-forward="true" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/recovery/ParseEOFException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parser/langX++ --OLD.jj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="408" lean-forward="true" selection-start-line="408" selection-end-line="408" />
+          <folding>
+            <element signature="e#471#526#0" expanded="true" />
+            <element signature="e#528#4575#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#4577#4679#0" expanded="true" />
+            <element signature="e#4741#4785#0" expanded="true" />
+            <element signature="e#4787#4823#0" expanded="true" />
+            <element signature="e#4825#4862#0" expanded="true" />
+            <element signature="e#4864#4919#0" expanded="true" />
+            <element signature="e#4921#4987#0" expanded="true" />
+            <element signature="e#5017#5499#0" expanded="true" />
+            <element signature="e#5519#6466#0" expanded="true" />
+            <element signature="e#6491#6603#0" expanded="true" />
+            <element signature="e#6631#6807#0" expanded="true" />
+            <element signature="e#6827#7087#0" expanded="true" />
+            <element signature="e#7118#7774#0" expanded="true" />
+            <element signature="e#8408#8472#0" expanded="true" />
+            <element signature="e#8486#8500#0" expanded="true" />
+            <element signature="e#8548#8559#0" expanded="true" />
+            <element signature="e#8599#8645#0" expanded="true" />
+            <element signature="e#8669#8681#0" expanded="true" />
+            <element signature="e#8076#8121#0" expanded="true" />
+            <element signature="e#8217#8220#0" expanded="true" />
+            <element signature="e#8349#8389#0" expanded="true" />
+            <element signature="e#8393#9002#0" />
+            <element signature="e#9005#9350#0" />
+            <element signature="e#9353#9530#0" />
+            <element signature="e#9532#9848#0" />
+            <element signature="e#9850#10087#0" />
+            <element signature="e#10089#10458#0" />
+            <element signature="e#10460#11112#0" />
+            <element signature="e#11115#11364#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntacticTree/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntacticTree/AtribNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntacticTree/PrintNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntacticTree/ClassBodyNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntacticTree/ClassDeclNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntacticTree/StringConstNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding>
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntacticTree/IntConstNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parser/Token.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntacticTree/ByteConstNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntacticTree/FloatConstNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntacticTree/ShortConstNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="25" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntacticTree/LongConstNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntacticTree/MultNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntacticTree/GeneralNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/Implementação de Compilador/testeSemErros.test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntacticTree/VarDeclNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntacticTree/ExpreNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntacticTree/NopNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding>
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#140#141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntacticTree/VarNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntacticTree/RelationalNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntacticTree/StatementNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntacticTree/UnaryNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntacticTree/NotNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntacticTree/MethodDeclNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntacticTree/PrintTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="285" column="160" selection-start-line="285" selection-start-column="160" selection-end-line="285" selection-end-column="160" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testeSemErros.test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testeComErros.test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/log_Arquivo_Com_Erros">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/log_Arquivo_Sem_Erros">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-969" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parser/langX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="1334" column="15" selection-start-line="1334" selection-start-column="15" selection-end-line="1334" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/recovery/First.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/project-template.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Implementação de Compilador.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parser/langX++.jj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="544" column="15" selection-start-line="544" selection-start-column="10" selection-end-line="544" selection-end-column="15" />
+          <folding>
+            <element signature="e#11323#11362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="207" column="57" selection-start-line="207" selection-start-column="53" selection-end-line="207" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Implementação de Compilador</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
