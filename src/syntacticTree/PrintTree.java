@@ -36,7 +36,7 @@ public class PrintTree {
         }
 
         System.out.println();
-        System.out.print(x.number + ": ListNode (ClassDeclNode)  ===> " +
+        System.out.print(x.number + ": ListNode (ClassDeclNode)  ===> " + "" +
                 x.node.number + " " +
                 ((x.next == null) ? "null" : String.valueOf(x.next.number)));
 
@@ -90,8 +90,8 @@ public class PrintTree {
         System.out.print(x.number + ": ClassBodyNode ===> " +
                 ((x.clist == null) ? "null" : String.valueOf(x.clist.number)) +
                 " " + ((x.vlist == null) ? "null" : String.valueOf(x.vlist.number)) +
-                " " +
-                ((x.ctlist == null) ? "null" : String.valueOf(x.ctlist.number)) +
+                " " + ((x.alist == null) ? "null" : String.valueOf(x.alist.number)) +
+                " " + ((x.ctlist == null) ? "null" : String.valueOf(x.ctlist.number)) +
                 " " + ((x.mlist == null) ? "null" : String.valueOf(x.mlist.number)));
 
         printClassDeclListNode(x.clist);
@@ -142,7 +142,8 @@ public class PrintTree {
         }
 
         System.out.println();
-        System.out.print(x.number + ": VarDeclNode ===> " + (x.accessModifier == null ? "null " : x.accessModifier + " ") + (x.changeability == null ? "null " : x.changeability + " ") + x.position.image +
+        System.out.print(x.number + ": VarDeclNode ===> " + (x.accessModifier == null ? "null " : x.accessModifier + " ") +
+                (x.changeability == null ? "null " : x.changeability + " ") + x.position.image +
                 " " + x.vars.number);
         printvarListNode(x.vars);
     }
@@ -957,9 +958,9 @@ public class PrintTree {
             printNewArrayNode((NewArrayNode) x);
         } else if (x instanceof RelationalNode) {
             printRelationalNode((RelationalNode) x);
-        }  else if (x instanceof NotNode) {
+        } else if (x instanceof NotNode) {
             printNotNode((NotNode) x);
-        }else if (x instanceof AddNode) {
+        } else if (x instanceof AddNode) {
             printAddNode((AddNode) x);
         } else if (x instanceof MultNode) {
             printMultNode((MultNode) x);
@@ -997,8 +998,6 @@ public class PrintTree {
             numberNewArrayNode((NewArrayNode) x);
         } else if (x instanceof RelationalNode) {
             numberRelationalNode((RelationalNode) x);
-        } else if (x instanceof NotNode) {
-            numberNotNode((NotNode) x);
         } else if (x instanceof AddNode) {
             numberAddNode((AddNode) x);
         } else if (x instanceof MultNode) {
